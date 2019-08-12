@@ -1,3 +1,3 @@
 FROM wurstmeister/kafka
-RUN docker-compose up -d
+docker-compose up
 EXPOSE 9092
